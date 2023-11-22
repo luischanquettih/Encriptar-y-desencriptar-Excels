@@ -15,7 +15,7 @@ def main():
     key = generate_key()
     print(f"Generated Key: {key.decode()}")
 
-    filename = 'datos.xlsx' 
+    filename = 'datos.xlsx' # colocar la ruta del archivo
 
     encrypt_file(key, filename)
     print(f"{filename} encrypted to {filename}.enc")
